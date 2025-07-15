@@ -1,15 +1,15 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: Heroku AppLink sample app
-  description: Sample Heroku app exposing APIs to connected Salesforce and Data Cloud orgs.
+  title: Heroku AppLink Node.js App Template
+  description: Sample Heroku App exposing APIs in Node.js with Fastify to connected Salesforce and Data Cloud orgs.
 servers:
   - url: http://127.0.0.1:3000
 paths:
   /accounts:
     get:
       operationId: GetAccounts
-      description: Returns list of array of Accounts
+      description: Returns a list of Accounts
       x-sfdc:
         heroku:
           authorization:

@@ -1,0 +1,26 @@
+{
+  "name": "Heroku AppLink Node.js App Template",
+  "description": "Heroku AppLink Node.js App Template with Fastify",
+  "repository": "https://github.com/heroku-reference-apps/applink-getting-started-nodejs",
+  "keywords": [
+    "node",
+    "fastify",
+    "applink",
+    "salesforce",
+    "datacloud",
+    "swagger"
+  ],
+  "addons": [
+    {
+      "plan": "heroku-applink"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/heroku-applink-service-mesh"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
