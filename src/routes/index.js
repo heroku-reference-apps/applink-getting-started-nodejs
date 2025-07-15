@@ -195,7 +195,7 @@ export default async function (fastify, _opts) {
         throw new Error(errorMessage);
       }
 
-      return reply;
+      reply.send({ success: true });
     }
   );
 

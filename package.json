@@ -1,7 +1,7 @@
 {
   "name": "applink-getting-started-nodejs",
   "version": "1.0.0",
-  "description": "Heroku AppLink Sammple App with Fastify",
+  "description": "Heroku AppLink Sample App with Fastify",
   "type": "module",
   "main": "src/app.js",
   "directories": {
