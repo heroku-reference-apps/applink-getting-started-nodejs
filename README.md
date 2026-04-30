@@ -195,7 +195,7 @@ heroku salesforce:authorizations:add auth-user --addon your-addon-name -a your-a
 heroku salesforce:publish api-spec.yaml \
   --client-name MyAPI \
   --connection-name production-org \
-  --authorization-connected-app-name MyAppConnectedApp \
+  --authorization-external-client-app-name MyAppExternalClientApp \
   --authorization-permission-set-name MyAppPermissions \
   --addon your-addon-name
 ```

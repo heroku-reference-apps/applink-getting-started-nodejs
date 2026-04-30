@@ -13,7 +13,7 @@ paths:
       x-sfdc:
         heroku:
           authorization:
-            connectedApp: 'MyAppLinkConnectedApp'
+            externalClientApp: 'MyAppLinkExternalClientApp'
             permissionSet: 'MyAppLinkPermSet'
       responses:
         '200':
@@ -40,7 +40,7 @@ paths:
       x-sfdc:
         heroku:
           authorization:
-            connectedApp: 'MyAppLinkConnectedApp'
+            externalClientApp: 'MyAppLinkExternalClientApp'
             permissionSet: 'MyAppLinkPermSet'
       requestBody:
         required: true
